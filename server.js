@@ -9,18 +9,6 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
-/*const db = knex({
-  // connect to your own database here:
-  client: 'pg',
-  connection: {
-    host : 'db5014786385.hosting-data.io',
-    user : 'dbu1802310',
-    password : 'U2U3EBM4$PPJ@kC',
-    database : 'smartbrain'
-  }
-});*/
-
-
 const db = knex({
   // connect to your own database here:
   client: 'pg',
