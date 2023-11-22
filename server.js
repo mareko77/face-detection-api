@@ -11,7 +11,7 @@ const image = require('./controllers/image');
 
 const db = knex({
   // connect to your own database here:
-  client: 'pg',
+  client: 'mysql',
   connection: {
     host : 'db5014786385.hosting-data.io',
     user : 'dbu1802310',
