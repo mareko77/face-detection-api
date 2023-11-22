@@ -13,9 +13,9 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
-    user : 'postgres',
-    password : 'test',
+    host : 'db5014786385.hosting-data.io',
+    user : 'dbu1802310',
+    password : 'U2U3EBM4$PPJ@kC',
     database : 'smartbrain'
   }
 });
