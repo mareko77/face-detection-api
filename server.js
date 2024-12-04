@@ -11,12 +11,12 @@ const image = require('./controllers/image');
 
 const db = knex({
   // connect to your own database here:
-  client: 'mysql',
+  client: 'pg',
   connection: {
-    host : 'db5014786385.hosting-data.io',
-    user : 'dbu1802310',
-    password : 'U2U3EBM4$PPJ@kC',
-    database : 'smartbrain'
+    host : 'dpg-ct76s5rtq21c73bju5o0-a',
+    user : 'smartbrain_zave_user',
+    password : 'lH8nGC9uVUDELKBin7Z9I8hzhhvgX8MI',
+    database : 'smartbrain_zave'
   }
 });
 
