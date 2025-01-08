@@ -13,10 +13,10 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    host : 'dpg-ct76s5rtq21c73bju5o0-a',
-    user : 'smartbrain_zave_user',
-    password : 'lH8nGC9uVUDELKBin7Z9I8hzhhvgX8MI',
-    database : 'smartbrain_zave'
+    host : 'dpg-ctvcdf2j1k6c73emscb0-a',
+    user : 'smartbrain_3iey_user',
+    password : 'cc3EFVQSoTsInBcJMhmFYL4MwLa1k572',
+    database : 'smartbrain_3iey'
   }
 });
 
